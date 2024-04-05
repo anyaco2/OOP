@@ -25,12 +25,12 @@ Software::~Software()
 {
 }
 
-string Software::Is_SystemOperating() const
+std::string Software::Is_SystemOperating() const
 {
 	return SystemSoftware;
 }
 
-string Software::get_OperatingSystem() const
+std::string Software::get_OperatingSystem() const
 {
 	return OperatingSystem;
 }
